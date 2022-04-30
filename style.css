@@ -1,0 +1,131 @@
+/* ini body */
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	margin:0;
+	padding:0%;
+}
+
+h2, h3 {
+	color: brown;
+}
+
+p {
+	text-indent: 2em;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	text-align: justify;
+}
+
+#letter-spacing {
+letter-spacing: 4px;
+}
+
+.card {
+	box-shadow: 0 4px 8px 0 tomato;
+	border-radius: 5px;
+	padding: 20px;
+	margin: 20px;
+}
+
+/* ini header */
+header {
+	display: inline;
+}
+
+.jumbotron {
+	font-size: 20px;
+	padding: 60px;
+	background-color: #94b4a4;
+	background-image: repeating-linear-gradient( burlywood, white);
+	text-align: center;
+	color: brown;
+}
+
+/* bagian navbar */
+nav {
+	background-color: #94b4a4;
+	padding: 5px;
+	position: sticky;
+	top: 0;
+}
+
+nav a {
+	font-size: 18px;
+	font-weight: 400;
+	text-decoration: none;
+	color: whitesmoke;
+}
+
+nav ul li a:hover {
+	font-weight: bold;
+	color: burlywood;
+	}
+
+nav li {
+	display: inline;
+	list-style-type: none;
+	margin-right: 20px;
+}
+
+/* aturan gambar */
+.featured-image{
+	width: 100%;
+	max-height: 300px;
+	object-fit: cover;
+	object-position: center;
+	transition: transform .9s;
+	border-radius: 5px;
+}
+
+.featured-image:hover{
+transform: scale(1.1);
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+/* aturan main */
+main {
+	padding: 20px;
+	overflow: auto;
+}
+
+.content {
+	float: right;
+	width: 70%;
+	}
+
+/* aturan aside */
+.profile {
+	text-align: center;
+}
+
+aside {
+	float: left;
+	width: 30%;
+	padding: 10px;
+}
+
+/* aturan kaki */
+footer {
+padding: 15px;
+color: whitesmoke;
+background-color: #94b4a4;
+text-align: center;
+font-weight: bold;
+position: sticky;
+bottom: 0;
+}
+
+/* aturan mobile responsive */
+@media screen and (max-width: 1000px) {
+	.content,
+	aside {
+		width: 100%;
+		padding: 0;
+	}
+}

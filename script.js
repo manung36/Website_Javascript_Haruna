@@ -1,0 +1,2 @@
+console.log("Halo abang reviewer yang ganteng, semoga sehat selalu ya!")
+alert("Motto Kami: Vini, Vidi, Vici. Saya Datang Mengambil Cucian, Saya Melihat Rejeki dalam Cucian tsb dan Saya Menang dapat Upah hasil mencuci")
